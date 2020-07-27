@@ -3,7 +3,7 @@ import tagListTemplate from '../templates/tag-list.hbs';
 import itemsJSON from './menu.json';
 
 createMenu();
-enterTags();
+addTags();
 
 function createMenu() {
   const items = menuItemsTemplate(itemsJSON);
@@ -11,7 +11,7 @@ function createMenu() {
   menuRef.insertAdjacentHTML('beforeend', items);
 }
 
-function enterTags() {
+function addTags() {
   const tagsRef = document.querySelectorAll('.tag-list');
   const ingredients = itemsJSON.map(el => el.ingredients);
   for (let i = 0; i < tagsRef.length; i++) {
