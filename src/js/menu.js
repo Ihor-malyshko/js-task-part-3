@@ -3,7 +3,7 @@ import tagListTemplate from '../templates/tag-list.hbs';
 import itemsJSON from './menu.json';
 
 createMenu();
-addTags();
+// addTags();
 
 function createMenu() {
   const items = menuItemsTemplate(itemsJSON);
