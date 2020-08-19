@@ -51,6 +51,6 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
-    "imagemin": "^5.0.0"
+    "imagemin": "^5.3.1"
   }
 }
