@@ -1,5 +1,4 @@
 import menuItemsTemplate from '../templates/menu-items.hbs';
-import tagListTemplate from '../templates/tag-list.hbs';
 import itemsJSON from './menu.json';
 
 createMenu();
